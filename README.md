@@ -1,4 +1,2 @@
 # InventionCorps
-newline
-Anish Saha
 
