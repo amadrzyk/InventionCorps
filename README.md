@@ -1,4 +1,11 @@
 # InventionCorps
 
-// TODO: Add photos, fix blurbs, add info about projects, add team info, fix email page 
-[https://amadrzyk.github.io/InventionCorps/](https://amadrzyk.github.io/InventionCorps/)
+[Website →](https://amadrzyk.github.io/InventionCorps/)
+
+
+#### TODO: 
+- [ ] Add photos
+- [ ] Fix blurbs
+- [ ] Add info about projects
+- [ ] Add team info
+- [ ] Fix email page 
