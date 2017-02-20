@@ -1,7 +1,7 @@
 # InventionCorps
 
 [Website →](https://amadrzyk.github.io/InventionCorps/)
-
+(If the website doesn't look updated try clearing your cache)
 
 # To Do: 
 - [ ] Add photos
