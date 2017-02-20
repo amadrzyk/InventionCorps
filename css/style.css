@@ -15,7 +15,7 @@ body {
   font-family: "Karla", Arial, sans-serif;
   line-height: 1.8;
   font-size: 20px;
-  background: #f0f0f0;
+  /*background: #f0f0f0;*/
   background-image: url(images/photography.png);
   font-weight: 300;
   overflow-x: hidden;
@@ -774,7 +774,8 @@ header .fh5co-navbar-brand .fh5co-social-icon a {
 }
 
 #fh5co-blog, #fh5co-work-section {
-  padding-top: 7em;
+  padding-top: 4em;
+  padding-bottom: 3.5em;
 }
 
 .fh5co-work-section {
