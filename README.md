@@ -8,4 +8,4 @@
 - [ ] Fix blurbs
 - [ ] Add info about projects
 - [ ] Add team info
-- [ ] Fix email page 
+- [x] Fix email page 
