@@ -1136,7 +1136,7 @@ input[type="text"] {
 
 #footer {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 4em 0;
+  padding: 2em 0 0 0;
 }
 #footer .section-title {
   font-size: 24px;
@@ -1164,7 +1164,7 @@ input[type="text"] {
   }
 }
 #footer .copy-right {
-  padding-top: 4em;
+  /*padding-top: 4em;*/
 }
 #footer a {
   color: black;
