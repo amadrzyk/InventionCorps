@@ -3,7 +3,7 @@
 [Website →](https://amadrzyk.github.io/InventionCorps/)
 
 
-### TODO: 
+# TODO: 
 - [ ] Add photos
 - [ ] Fix blurbs
 - [ ] Add info about projects
