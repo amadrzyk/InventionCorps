@@ -122,7 +122,26 @@
 			   			<div class="col-md-8 col-md-offset-2 col-md-push-4 js-fullheight slider-text">
 			   				<div class="slider-text-inner">
 			   					<div class="desc">
-			   						<span>Jan. 07, 2016</span>
+			   						<span>
+			   							<script type="text/javascript">
+										tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+										tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+
+										function GetClock(){
+										var d=new Date();
+										var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+										if(nyear<1000) nyear+=1900;
+
+										document.getElementById('clockbox').innerHTML=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+										}
+
+										window.onload=function(){
+										GetClock();
+										setInterval(GetClock,1000);
+										}
+										</script>
+										<div id="clockbox"></div>
+									</span>
 			   						<h2>We Are Creators</h2>
 			   						<p> blurb part1 -- pls fix </p>
 			   					</div>
@@ -136,10 +155,11 @@
 			   			<div class="col-md-8 col-md-offset-2 col-md-push-4 js-fullheight slider-text">
 			   				<div class="slider-text-inner">
 			   					<div class="desc">
-			   						<span>Jan. 07, 2016</span>
+			   						<span>
+			   						
+									</span>
 				   					<h2>We Are Innovators</h2>
 				   					<p> blurb part2 -- pls fix </p>
-
 				   				</div>
 			   				</div>
 			   			</div>
@@ -151,7 +171,9 @@
 						<div class="col-md-8 col-md-offset-2 col-md-push-4 js-fullheight slider-text">
 							<div class="slider-text-inner">
 								<div class="desc">
-									<span>Jan. 06, 2016</span>
+									<span>
+
+									</span>
 									<h2>We Are Change</h2>
 									<p> blurb part 3 -- pls fix </p>
 								</div>
@@ -165,7 +187,9 @@
 						<div class="col-md-8 col-md-offset-2 col-md-push-4 js-fullheight slider-text">
 							<div class="slider-text-inner">
 								<div class="desc">
-									<span>Jan. 06, 2016</span>
+									<span>
+
+									</span>
 									<h2>We Are Berkley Invention Corps </h2>
 									<p> final blurb make it impactful!!! </p>
 								</div>
