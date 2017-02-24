@@ -127,9 +127,6 @@
 		}
 	};
 
-
-
-
 	// Document on load.
 	$(function(){
 		fullHeight();
@@ -139,6 +136,5 @@
 		contentWayPoint();
 		counterWayPoint();
 	});
-
 
 }());

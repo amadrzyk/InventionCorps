@@ -686,7 +686,7 @@ header{
 	width: 65%;
 	margin-bottom: 5em;
 	min-height: 700px;
-	background: $brand-white url(../images/loader.gif) no-repeat center center;
+	//background: $brand-white url(../images/loader.gif) no-repeat center center;
 	z-index: 1;
 	@media screen and (max-width: $screen-md){
 		width: 100%;
