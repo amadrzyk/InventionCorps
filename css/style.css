@@ -15,7 +15,7 @@ body {
   font-family: "Karla", Arial, sans-serif;
   line-height: 1.8;
   font-size: 20px;
-  /*background: #f0f0f0;*/
+  background: #f0f0f0;
   background-image: url(images/photography.png);
   font-weight: 300;
   overflow-x: hidden;
@@ -1093,6 +1093,8 @@ header .fh5co-navbar-brand .fh5co-social-icon a {
 .contact-info {
   margin-bottom: 4em;
   padding: 0;
+
+  font-weight: 400;
 }
 .contact-info li {
   list-style: none;
@@ -1271,14 +1273,21 @@ input[type="text"] {
   transform: translateY(-100%);
 }
 .content{
-  background-color: grey;
+  background-color: #3e3e3b;
   transition: margin 0.3s ease;
   min-height: 300px;
 }
 
-
+/* On desktop */
 .navcontainer.pushed .content{
   margin-top: 60px;
+}
+
+/* On mobile */
+@media screen and (max-width: 880px){
+  .navcontainer.pushed .content{
+    padding-top: 150px;
+  }
 }
 
 .button{
