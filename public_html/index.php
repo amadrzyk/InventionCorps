@@ -7,7 +7,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title>Invention Corps of Berkeley</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="author" content="" />
@@ -60,31 +60,33 @@
 							<li class="menu__item menu__item--current"><a href="index.html" class="menu__link">Home</a></li>
 							<li class="menu__item"><a href="work.html" class="menu__link">Work</a></li>
 							<li class="menu__item"><a href="about.html" class="menu__link">About</a></li>
+							<li class="menu__item"><a href="" class="menu__link">The Corps</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Founders</a></li>
 							<li class="menu__item"><a href="contact.html" class="menu__link">Contact</a></li>
 						</ul>
 					</nav>
 				</section>
 			</div>
 			<div class="content">
-				<nav id="fh5co-main-nav" role="navigation">
-					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle active"><i></i></a>
-					<div class="js-fullheight fh5co-table">
-						<div class="fh5co-table-cell js-fullheight">
-							<h1 class="text-center"><a class="fh5co-logo" href="index.html">Berkeley Invention Corps</a></h1>
-							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="work.html">Work</a></li>
-								<li><a href="blog.html">Blog</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-							<p class="fh5co-social-icon">
-								<a href="#"><i class="icon-facebook2"></i></a>
-								<a href="#"><i class="icon-youtube"></i></a>
-							</p>
-						</div>
-					</div>
-				</nav>
+				<!--<nav id="fh5co-main-nav" role="navigation">-->
+					<!--<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle active"><i></i></a>-->
+					<!--<div class="js-fullheight fh5co-table">-->
+						<!--<div class="fh5co-table-cell js-fullheight">-->
+							<!--<h1 class="text-center"><a class="fh5co-logo" href="index.html">Berkeley Invention Corps</a></h1>-->
+							<!--<ul>-->
+								<!--<li><a href="index.html">Home</a></li>-->
+								<!--<li><a href="work.html">Work</a></li>-->
+								<!--<li><a href="blog.html">Blog</a></li>-->
+								<!--<li><a href="about.html">About</a></li>-->
+								<!--<li><a href="contact.html">Contact</a></li>-->
+							<!--</ul>-->
+							<!--<p class="fh5co-social-icon">-->
+								<!--<a href="#"><i class="icon-facebook2"></i></a>-->
+								<!--<a href="#"><i class="icon-youtube"></i></a>-->
+							<!--</p>-->
+						<!--</div>-->
+					<!--</div>-->
+				<!--</nav>-->
 
 
 				<div id="fh5co-page">

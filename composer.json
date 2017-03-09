@@ -1,0 +1,20 @@
+{
+  "name": "invention corps website",
+  "description": "personal website",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alex Madrzyk",
+      "email": "alexmadrzyk@gmail.com"
+    },
+    {
+      "name": "Anish Saha",
+      "email": "asaha@berkeley.edu"
+    }
+  ],
+
+  "require-dev" : {
+    "heroku/heroku-buildpack-php": "*"
+  }
+}
