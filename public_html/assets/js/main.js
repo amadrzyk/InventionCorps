@@ -1,8 +1,6 @@
-;(function () {
+var init = function () {
 	
 	'use strict';
-
-
 
 	// iPad and iPod detection	
 	var isiPad = function(){
@@ -111,7 +109,7 @@
 		$('.js-counter').countTo({
 			 formatter: function (value, options) {
 	      return value.toFixed(options.decimals);
-	    },
+	    }
 		});
 	};
 
@@ -137,4 +135,38 @@
 		counterWayPoint();
 	});
 
-}());
+};
+
+init();
+
+
+
+
+
+// TOGGLE PUSH MENU
+$('#click').click(function(event){
+    event.preventDefault();
+    $('.navcontainer').toggleClass('pushed');
+});
+
+
+
+
+
+/**
+ * Checks url for a page in the navbar. Make sure you update the id of the navbar items to one of these
+ * @param path
+ * @returns {*}
+ */
+function whatPageIsThis(path){
+    if (path.search("index.php") != -1) return 'home';
+    if (path.search("work.php") != -1) return 'work';
+    if (path.search("about.php") != -1) return 'about';
+    if (path.search("thecorps.php") != -1) return 'thecorps';
+    if (path.search("founders.php") != -1) return 'founders';
+    if (path.search("contact.php") != -1) return 'contact';
+    if (path.search("projects") != -1) return 'work';
+}
+
+var currentPage = whatPageIsThis(window.location.pathname);
+$("#" + currentPage).addClass("menu__item--current");
