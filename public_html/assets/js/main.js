@@ -166,6 +166,7 @@ function whatPageIsThis(path){
     if (path.search("founders.php") != -1) return 'founders';
     if (path.search("contact.php") != -1) return 'contact';
     if (path.search("projects") != -1) return 'work';
+    if (path === "/") return 'home';
 }
 
 var currentPage = whatPageIsThis(window.location.pathname);
