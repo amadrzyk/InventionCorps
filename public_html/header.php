@@ -5,8 +5,6 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 
-    <!-- COPY AND PASTE META TAGS FROM INDEX.HTML -->
-
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="shortcut icon" href="favicon.ico">
 
@@ -32,6 +30,8 @@
     <!--[if lt IE 9]>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <title></title>
 
 </head>
 <body>
