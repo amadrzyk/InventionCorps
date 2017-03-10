@@ -44,5 +44,6 @@
 
 <!-- Main JS (Do not remove) -->
 <script src="../assets/js/main.js"></script>
+<script src="../assets/js/changeTitle.js"></script>
 </body>
 </html>

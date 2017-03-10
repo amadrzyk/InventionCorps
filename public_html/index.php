@@ -3,32 +3,10 @@
     include_once "header.php";
 ?>
 
-				<div id="fh5co-page">
-					<header>
-						<div class="container">
-							<div class="fh5co-navbar-brand">
-								<div class="row">
-									<div class="col-xs-6">
-										<h1 class="text-left"><a class="fh5co-logo" href="index.php"><span>Berkeley</span> Invention Corps </a></h1>
-									</div>
-									<div class="col-xs-6">
-										<p class="fh5co-social-icon text-right">
-											<a href="#"><i class="icon-facebook2"></i></a>
-											<a href="#"><i class="icon-youtube"></i></a>
-										</p>
-									</div>
-								</div>
-								<!--<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>-->
-								<a href="#" class="fh5co-nav-toggle button" id="click"><i></i></a>
-
-							</div>
-						</div>
-					</header>
-
 					<aside id="fh5co-hero" class="js-fullheight">
 						<div class="flexslider js-fullheight">
 							<ul class="slides">
-							<li style="background-image: url(//placehold.it/2000x1067);">
+							<li style="background-image: url(assets/images/clubphotos/image-1-colored.jpg);">
 									<!-- <li style="background-image: url(images/slide_1.jpg);"> -->
 								<div class="overlay-gradient"></div>
 								<div class="container">
@@ -36,23 +14,22 @@
 										<div class="slider-text-inner">
 											<div class="desc">
 												<!--<span>Jan. 07, 2016</span>-->
-												<h2>We Are Creators</h2>
-												<p> blurb part1 -- pls fix </p>
+												<h2>We Are Creators and Storytellers.</h2>
+<!--												<p> blurb part1 -- pls fix </p>-->
 											</div>
 										</div>
 									</div>
 								</div>
 							</li>
-							<li style="background-image: url(//placehold.it/1600x1067);">
+							<li style="background-image: url(assets/images/Ideo2.png);">
 								<div class="overlay-gradient"></div>
 								<div class="container">
 									<div class="col-md-8 col-md-offset-2 col-md-push-4 js-fullheight slider-text">
 										<div class="slider-text-inner">
 											<div class="desc">
-												<span>Jan. 07, 2016</span>
-												<h2>We Are Innovators</h2>
-												<p> blurb part2 -- pls fix </p>
-
+<!--												<span>Jan. 07, 2016</span>-->
+												<h2>We Ideate, Inspire and Initiate.</h2>
+<!--												<p> blurb part2 -- pls fix </p>-->
 											</div>
 										</div>
 									</div>

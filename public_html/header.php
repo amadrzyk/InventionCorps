@@ -54,3 +54,24 @@
         </div>
 
         <div class="content">
+            <div id="fh5co-page">
+                <header>
+                    <div class="container">
+                        <div class="fh5co-navbar-brand">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <h1 class="text-left"><a class="fh5co-logo" href="index.php"><span>Berkeley</span> Invention Corps </a></h1>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="fh5co-social-icon text-right">
+                                        <a href="#"><i class="icon-facebook2"></i></a>
+                                        <a href="//www.youtube.com/watch?v=FJYpZMmz9OY"><i class="icon-youtube"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>-->
+                            <a href="#" class="fh5co-nav-toggle button" id="click"><i></i></a>
+
+                        </div>
+                    </div>
+                </header>
