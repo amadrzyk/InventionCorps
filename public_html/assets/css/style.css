@@ -53,7 +53,7 @@ a:focus, a:active {
 }
 
 p, span {
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
   font-size: 18px;
   color: #727272;
   font-weight: 300;

@@ -43,7 +43,7 @@
                 <nav class="menu menu--prospero">
                     <ul class="menu__list">
                         <li class="menu__item" id="home"><a href="index.php" class="menu__link">Home</a></li>
-                        <li class="menu__item" id="work"><a href="work.php" class="menu__link">Work</a></li>
+                        <li class="menu__item" id="work"><a href="index.php#fh5co-work-section" class="menu__link">Work</a></li>
                         <li class="menu__item" id="about"><a href="about.php" class="menu__link">About</a></li>
                         <li class="menu__item" id="thecorps"><a href="thecorps.php" class="menu__link">The Corps</a></li>
                         <li class="menu__item" id="founders"><a href="founders.php" class="menu__link">Founders</a></li>

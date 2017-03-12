@@ -160,7 +160,6 @@ $('#click').click(function(event){
  */
 function whatPageIsThis(path){
     if (path.search("index.php") != -1) return 'home';
-    if (path.search("work.php") != -1) return 'work';
     if (path.search("about.php") != -1) return 'about';
     if (path.search("thecorps.php") != -1) return 'thecorps';
     if (path.search("founders.php") != -1) return 'founders';
@@ -171,3 +170,22 @@ function whatPageIsThis(path){
 
 var currentPage = whatPageIsThis(window.location.pathname);
 $("#" + currentPage).addClass("menu__item--current");
+
+
+/**
+ * Smooth scroll if link on the same page
+ */
+$(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 500);
+                return false;
+            }
+        }
+    });
+});

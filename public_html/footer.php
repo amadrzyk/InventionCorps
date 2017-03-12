@@ -5,7 +5,7 @@
                             <div class="col-md-12 text-center">
                                 <h3 class="section-title">
                                     <a href="index.php">Home</a> /
-                                    <a href="work.php">Work</a> /
+                                    <a href="index.php#fh5co-work-section">Work</a> /
                                     <a href="about.php">About</a> /
                                     <a href="thecorps.php">The Corps</a> /
                                     <a href="founders.php">Founders</a> /
@@ -42,7 +42,7 @@
 <!-- Flexslider -->
 <script src="assets/js/jquery.flexslider-min.js"></script>
 
-<!-- Main JS (Do not remove) -->
+            <!-- Main JS (Do not remove) -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/changeTitle.js"></script>
 </body>
